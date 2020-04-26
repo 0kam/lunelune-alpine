@@ -7,6 +7,6 @@ contactname = "Your name"
 contactemail = "Your Email"
 contactsubject = "Subject"
 contactmessage = "Your Message"
-contactlang = "en"
+contactlang = "fr"
 contactanswertime = 24
 +++
