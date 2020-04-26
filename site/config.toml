@@ -160,7 +160,7 @@ disableLanguages        = [""]
   [[menu.main]]
     name              = "Admin"
     identifier        = "admin"
-    url               = "/contact/"
+    url               = "/admin/"
     pre               = "<i class='fas fa-user-circle'></i>"
     weight            = 9
 
