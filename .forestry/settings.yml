@@ -10,12 +10,12 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/about
+  path: sitecontent/about
   label: about
   create: all
   match: "**/*"
 - type: directory
-  path: content
+  path: site/content
   label: Pages
   create: all
   match: "*"
