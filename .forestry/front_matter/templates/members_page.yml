@@ -29,5 +29,3 @@ fields:
   default: []
   label: tags
   description: Tag yourself  based on what you're interested in
-pages:
-- site/content/members/okmoto.md
