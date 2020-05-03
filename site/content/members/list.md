@@ -1,4 +1,0 @@
-## simon
-## noguchi
-## kami
-## okamoto
