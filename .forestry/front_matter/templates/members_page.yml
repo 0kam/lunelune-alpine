@@ -2,7 +2,7 @@
 label: members_page
 hide_body: true
 fields:
-- name: name
+- name: title
   type: text
   config:
     required: false
@@ -18,9 +18,14 @@ fields:
       format: markdown
   label: Description
   description: put your self-introduction here
-- name: image
+- name: images
   type: file
   config:
     maxSize: 64
   label: image
   description: put your icon image here
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+  description: Tag yourself  based on what you're interested in
