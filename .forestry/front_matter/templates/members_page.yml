@@ -18,7 +18,7 @@ fields:
       format: markdown
   label: Description
   description: put your self-introduction here
-- name: images
+- name: image
   type: file
   config:
     maxSize: 64
@@ -29,5 +29,3 @@ fields:
   default: []
   label: tags
   description: Tag yourself  based on what you're interested in
-pages:
-- site/content/members/okamoto.md
