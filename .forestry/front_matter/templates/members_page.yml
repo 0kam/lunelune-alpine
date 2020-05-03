@@ -18,5 +18,3 @@ fields:
       format: markdown
   label: Description
   description: Put your self-introduction here
-pages:
-- site/content/members/okamoto.md
