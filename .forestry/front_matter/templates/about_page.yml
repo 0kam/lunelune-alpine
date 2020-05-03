@@ -1,4 +1,10 @@
 ---
 label: about_page
 hide_body: false
-fields: []
+fields:
+- name: member_name
+  type: text
+  config:
+    required: false
+  label: member_name
+  description: Put the member name here
