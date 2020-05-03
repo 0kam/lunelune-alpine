@@ -5,6 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: site/content/members
+  label: members
+  create: all
+  match: "**/*"
+- type: directory
   path: site/content/blog
   label: blog
   create: all
@@ -14,11 +19,6 @@ sections:
   label: about
   create: all
   match: "**/*"
-- type: directory
-  path: site/content
-  label: Pages
-  create: all
-  match: "*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
