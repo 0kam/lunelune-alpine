@@ -24,3 +24,5 @@ fields:
     maxSize: 64
   label: image
   description: put your icon image here
+pages:
+- site/content/members/okamoto.md
