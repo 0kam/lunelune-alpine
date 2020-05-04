@@ -19,10 +19,10 @@ fields:
   label: Description
   description: Write down your self-introduction here
 - name: images
-  type: image_gallery
-  config: {}
-  label: Images
-  description: Put your images here
+  type: file
+  config:
+    maxSize: 64
+  label: image
 pages:
 - site/content/members/okamoto.md
 - site/content/members/okamoto2.md
