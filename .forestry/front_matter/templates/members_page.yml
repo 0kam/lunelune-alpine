@@ -23,5 +23,4 @@ fields:
   config: {}
   label: images
 pages:
-- site/content/blog/テスト投稿-1.md
 - site/content/members/okamoto.md
