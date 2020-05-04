@@ -6,9 +6,9 @@ fields:
   type: text
   config:
     required: false
-  label: name
+  label: Name
   description: Put your name here
-- name: discription
+- name: description
   type: textarea
   default: ''
   config:
@@ -16,10 +16,10 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: discription
+  label: Description
   description: Write down your self-introduction here
 - name: images
   type: image_gallery
   config: {}
-  label: images
+  label: Images
   description: Put your images here
