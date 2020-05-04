@@ -9,6 +9,7 @@ googleAnalytics         = ""
 pluralizeListTitles     = false
 disableLanguages        = [""]
 staticDir               = ["static"]
+dataDir                 = ["static/img"]
 [params]
   # Add additional section names to mainSections to include posts from
   # those sections on the homepage.
