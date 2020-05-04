@@ -28,3 +28,5 @@ fields:
   config: {}
   label: images
   description: Put your images here
+pages:
+- site/content/members/okamoto.md
