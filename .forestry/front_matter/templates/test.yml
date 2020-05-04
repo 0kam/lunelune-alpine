@@ -24,4 +24,5 @@ fields:
   name: images
   label: images
 pages:
+- site/content/blog/okamoto.md
 - site/content/blog/テスト投稿.md
