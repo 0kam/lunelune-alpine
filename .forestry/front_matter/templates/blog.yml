@@ -1,4 +1,11 @@
 ---
 label: blog
 hide_body: true
-fields: []
+fields:
+- name: description
+  type: blocks
+  template_types: []
+  config:
+    min: 
+    max: 
+  label: description
