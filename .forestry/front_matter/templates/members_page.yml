@@ -24,6 +24,7 @@ fields:
     maxSize: 64
   label: image
 pages:
+- site/content/members/okamoto-1.md
 - site/content/members/okamoto.md
 - site/content/members/okamoto2.md
 - site/content/members/test.md
