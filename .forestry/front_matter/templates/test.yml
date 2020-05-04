@@ -23,3 +23,5 @@ fields:
 - type: image_gallery
   name: images
   label: images
+pages:
+- site/content/blog/テスト投稿.md
