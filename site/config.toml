@@ -8,7 +8,7 @@ disqusShortname         = ""
 googleAnalytics         = ""
 pluralizeListTitles     = false
 disableLanguages        = [""]
-staticDir               = ["static"]
+staticDir               = ["static", "static/img"] # "static/img" for images
 [params]
   # Add additional section names to mainSections to include posts from
   # those sections on the homepage.
