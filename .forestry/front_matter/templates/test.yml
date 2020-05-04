@@ -14,12 +14,14 @@ fields:
 - type: text
   name: description
   label: description
-- type: list
-  name: tags
-  label: tags
-- type: list
-  name: categories
-  label: categories
 - type: image_gallery
   name: images
   label: images
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+- name: categories
+  type: tag_list
+  default: []
+  label: categories
