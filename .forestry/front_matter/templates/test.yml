@@ -25,3 +25,5 @@ fields:
   type: tag_list
   default: []
   label: categories
+pages:
+- site/content/blog/テスト投稿.md
