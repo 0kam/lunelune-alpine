@@ -1,4 +1,25 @@
 ---
 label: members_page
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: name
+  description: Put your name here
+- name: discription
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: discription
+  description: Write down your self-introduction here
+- name: images
+  type: image_gallery
+  config: {}
+  label: images
+  description: Put your images here
