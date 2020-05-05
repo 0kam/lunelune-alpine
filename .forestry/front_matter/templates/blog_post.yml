@@ -5,21 +5,24 @@ fields:
 - type: text
   name: author
   label: author
-- type: list
-  name: categories
-  label: categories
-- type: datetime
-  name: date
-  label: date
-- type: text
-  name: description
-  label: description
-- type: list
-  name: images
-  label: images
-- type: list
-  name: tags
-  label: tags
 - type: text
   name: title
   label: title
+- type: datetime
+  name: date
+  label: date
+- name: categories
+  type: tag_list
+  default: []
+  label: categories
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+- type: text
+  name: description
+  label: description
+- name: images
+  type: image_gallery
+  config: {}
+  label: Index_images
