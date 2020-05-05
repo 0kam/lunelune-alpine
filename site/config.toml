@@ -1,4 +1,4 @@
-baseurl                 = "https://example.com/"
+baseurl                 = "https://lunelune-alpine.netlify.app/"
 DefaultContentLanguage  = "ja"
 title                   = "お山登りるんるん会"
 theme                   = "hugo-future-imperfect-slim"
