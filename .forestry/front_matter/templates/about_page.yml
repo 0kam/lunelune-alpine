@@ -7,16 +7,11 @@ fields:
   config:
     required: false
   label: title
-- name: about
+- name: date
   type: text
   config:
     required: false
-  label: about
-- name: author
-  type: text
-  config:
-    required: false
-  label: author
+  label: date
 - name: description
   type: textarea
   default: ''
