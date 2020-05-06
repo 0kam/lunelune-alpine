@@ -34,3 +34,5 @@ fields:
   type: image_gallery
   config: {}
   label: images
+pages:
+- site/content/about/戸山高校山岳部ob-ogの交流と情報発信の場.md
