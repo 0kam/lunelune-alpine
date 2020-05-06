@@ -26,7 +26,3 @@ fields:
   type: image_gallery
   config: {}
   label: Index_images
-pages:
-- site/content/blog/タグテスト.md
-- site/content/blog/テスト投稿-1.md
-- site/content/blog/テスト投稿.md
