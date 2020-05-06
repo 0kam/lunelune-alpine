@@ -1,4 +1,32 @@
 ---
 label: about_page
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: about
+  type: text
+  config:
+    required: false
+  label: about
+- name: author
+  type: text
+  config:
+    required: false
+  label: author
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: description
+- name: images
+  type: image_gallery
+  config: {}
+  label: images
