@@ -189,7 +189,7 @@ staticDir               = ["static", "static/img"] # "static/img" for images
 # and socialAppearAtBottom.
 [social]
   # Social Networks
-  facebook              = "100010006816605"
-  twitter               = "yama_to_ame"
+  facebook              = "100010006816605" #facebook id
+  twitter               = "yama_to_ame" #twitter account
   # Email
-  email                 = "maisha.marley@gmail.com"
+  # email                 = "maisha.marley@gmail.com"
