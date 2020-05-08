@@ -99,7 +99,7 @@ summaryLength = 120 # サマリーの長さを120単語にする
   facebook = "username"
   twitter = "username"
   instagram = "username"
-  email = "example@example.com"
+  email = "lunelune.alpine@gmail.com"
 
 # Custom social links
 [[Params.widgets.social.custom]]
