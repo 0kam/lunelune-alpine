@@ -1,116 +1,17 @@
-baseurl                 = "https://lunelune-alpine.netlify.app/"
-DefaultContentLanguage  = "ja"
-title                   = "お山登りるんるん会"
-theme                   = "hugo-future-imperfect-slim"
-preserveTaxonomyNames   = true
-paginate                = 3
-disqusShortname         = ""
-googleAnalytics         = ""
-pluralizeListTitles     = false
-disableLanguages        = [""]
-staticDir               = ["static", "static/img"] # "static/img" for images
-[params]
-  # Add additional section names to mainSections to include posts from
-  # those sections on the homepage.
-  enableCDN             = false
-
-  # Loads CSS and JavaScript files. The variable is an array so that you can load
-  # multiple/additional files if necessary. The standard theme files can be loaded
-  # by adding the value, "default". Default includes the add-on.css and and-on.js.
-  # Example: ["default", "/path/to/file"]
-  cssFiles              = ["default"]
-  jsFiles               = ["default"]
-  # Sets options for highlight.js
-  highlightjs           = true
-  highlightjsTheme      = "github"
-  highlightjsLang       = ["html", "css", "js", "toml"]
-  # Sets where "View More Posts" links to
-  viewMorePostsLink     = "/blog/"
-  # Activate Estimated Reading Times, which appear in the post headers
-  readingTime           = true
-  # Sets which Social Share links appear in posts.
-  # Options are twitter, facebook, reddit, linkedin, pinterest, email
-  socialShare           = ["twitter", "facebook", "reddit", "linkedin",
-                          "pinterest", "email"]
-
-  [params.meta]
-    # Sets the meta tag description
-    description         = "戸山高校山岳部OB・OG交流の場"
-    # Sets the meta tag author
-    author              = "お山登りるんるん会"
-    # If you would like to add more comprehensive favicon support passed root
-    # directory favicon.ico, utlize this funtion. It is recommened to use
-    # https://realfavicongenerator.net to generate your icons as that is the basis
-    # for the theme's naming.
-    favicon             = false
-    svg                 = true
-    faviconVersion      = "1"
-    msColor             = "#ffffff" # Copy from the https://realfavicongenerator.net
-    iOSColor            = "#ffffff" # Copy from the https://realfavicongenerator.net
-
-  [params.header]
-    # Sets the navbarTitle that appears in the top left of the navigation bar
-    navbarTitle         = "お山登りるんるん会"
-    # Sets navbarTitle to match the section of the website
-    dynamicTitles       = true
-    searchMenu          = true
-    shareMenu           = true
-    languageMenu        = true
-
-  # These are optional params related to the sidebar. They are recommended, but not
-  # required for proper functionality. HTML is supported within the params.
-  [params.intro]
-    header                = "お山登りるんるん会"
-    paragraph             = "戸山高校山岳部OB・OG交流の場"
-    rssIntro              = true
-    socialIntro           = true
-    # You may not want to display a long intro above content in the
-    # single column layout used on smaller screens.
-    hideWhenSingleColumn  = false
-    # But you may want to always display the intro on the homepage.
-    alwaysOnHomepage      = false
-
-    # This appears at the top of the sidebar above params.intro.header.
-    # A width of less than 100px is recommended from a design perspective.
-    [params.intro.pic]
-      src                 = "/img/main/logo.jpg"
-      # Masks image in a certain shape. Supported are circle, triangle, diamond, and hexagon.
-      shape               = "circle"
-      width               = ""
-      alt                 = ""
-
-  [params.sidebar]
-    # Sets the number of recent posts to show in the sidebar. The default value is 5.
-    postAmount          = 5
-    # set to show or to hide categories in the sidebar
-    categories          = true
-    # Sets Categories to sort by number of posts instead of alphabetical
-    categoriesByCount   = true
-
-  [params.footer]
-    # Sets RSS icons to appear on the sidebar with the social media buttons
-    rssFooter           = true
-    # Sets Social Media icons to appear on the sidebar
-    socialFooter        = true
-
-  # Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
-  # due to its ease of use. Feel free to check out both and decide which you would
-  # prefer to use. See staticman.yml for additional settings.
-  [params.staticman]
-    # If using GitHub, go to https://github.com/apps/staticman-net
-    # If using GitLab, just add the GitLab bot, NO need to hit `/connect/v3/...`
-    enabled             = false
-    api                 = ""  # without trailing slash, defaults to "staticman3.herokuapp.com"
-    gitProvider         = "github"  # either "github" or "gitlab"
-    username            = ""
-    repo                = ""
-    branch              = ""
-
-    [params.staticman.recaptcha]
-      # Both keys must be present to enable recaptcha
-      siteKey           = "" # Site Key
-      encryptedKey      = ""
-
+baseurl = "https://lunelune-alpine.netlify.app"
+title = "お山登りるんるん会"
+languageCode = "ja"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+staticDir = ["static", "static/img"] # "static/img" for images
+hasCJKLanguage = true # 日本語・中国語・韓国語の単語カウントを有効にする
+summaryLength = 120 # サマリーの長さを120単語にする
+[Author] # Used in authorbox
+  name = "okamoto"
+  bio = "ハイパー雨男。サイトの管理人。H27卒。"
+  avatar = "img/0kam.JPG"
 [menu]
   # Sets the menu items in the navigation bar
   # Identifier prepends a Font Awesome icon to the menu item
@@ -141,14 +42,7 @@ staticDir               = ["static", "static/img"] # "static/img" for images
     url               = "/categories/"
     pre               = "<i class='fas fa-sitemap'></i>"
     weight            = 5
-
-  [[menu.main]]
-    name              = "Contact"
-    identifier        = "contact"
-    url               = "/contact/"
-    pre               = "<i class='far fa-envelope'></i>"
-    weight            = 8
-
+    
   [[menu.main]]
     name              = "Members"
     identifier        = "members"
@@ -166,30 +60,53 @@ staticDir               = ["static", "static/img"] # "static/img" for images
   [[menu.main]]
     name              = "Calendar"
     identifier        = "calendar"
-    url               = "/calendar/"
+    url               = "https://calendar.google.com/calendar/b/2?cid=bHVuZWx1bmUuYWxwaW5lQGdtYWlsLmNvbQ"
     pre               = "<i class='far fa-calendar-alt'></i>"
     weight            = 7
+[Params]
+  subtitle = "戸山高校山岳部OB・OG交流の場" # Subtitle of your site. Used in site header
+  description = "" # Site description. Used in meta description
+  copyright = "お山登りるんるん会" # Footer copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph
+  twitter_cards = true # Enable Twitter Cards if true
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["date", "categories", "translations"] # Order of post meta information
+  mainSections = ["blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2006-01-02" # Change the format of dates
+  mathjax = true # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  highlightColor = "#008080" # Override highlight color
+  customCSS = ["css/custom.css"] # Include custom CSS files
+  customJS = ["js/custom.js"] # Include custom JS files
+  
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+        # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social"]
 
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget
 
+[Params.widgets.social]
+  # Enable parts of social widget
+  facebook = "username"
+  twitter = "username"
+  instagram = "username"
+  email = "example@example.com"
 
-[Languages]
-  # Each language has its own menu.
-  [Languages.en]
-    LanguageCode        = "en"
-    LanguageName        = "English"
-    weight              = 1
+# Custom social links
+[[Params.widgets.social.custom]]
+  title = "Youtube"
+  url = "https://youtube.com/user/username"
+      #icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
 
-  [Languages.ja]
-    LanguageCode        = "ja"
-    LanguageName        = "日本語"
-    weight              = 2
-
-# Sets Social Media icons to appear and link to your account. Value should be your
-# username unless otherwise noted. These are the icons affected by socialAppearAtTop
-# and socialAppearAtBottom.
-[social]
-  # Social Networks
-  facebook              = "100010006816605" #facebook id
-  twitter               = "yama_to_ame" #twitter account
-  # Email
-  # email                 = "maisha.marley@gmail.com"
+#[[Params.widgets.social.custom]]
+#  title = "website you want to link"
+#  url = "https://link_url.example"
