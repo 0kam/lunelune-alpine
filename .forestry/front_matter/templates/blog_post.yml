@@ -23,5 +23,3 @@ fields:
   type: image_gallery
   config: {}
   label: Index_images
-pages:
-- site/content/blog/スマホでテスト-後で消す.md
