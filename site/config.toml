@@ -47,8 +47,8 @@ summaryLength = 120 # サマリーの長さを120単語にする
     pre               = "<i class='fas fa-hiking'></i>"
     weight            = 6
 
-  [[menu.main]]
-    name              = "Admin"
+  [[menu.footer]]
+    name              = "Member's page"
     identifier        = "admin"
     url               = "/admin/"
     pre               = "<i class='fas fa-user-circle'></i>"
@@ -93,15 +93,13 @@ summaryLength = 120 # サマリーの長さを120単語にする
 
 [Params.widgets.social]
   # Enable parts of social widget
-  facebook = "username"
-  twitter = "username"
-  instagram = "username"
+  twitter = "lunelune_alpine"
   email = "lunelune.alpine@gmail.com"
 
 # Custom social links
-[[Params.widgets.social.custom]]
-  title = "Youtube"
-  url = "https://youtube.com/user/username"
+#[[Params.widgets.social.custom]]
+#  title = "Youtube"
+#  url = "https://youtube.com/user/username"
       #icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
 
 #[[Params.widgets.social.custom]]
