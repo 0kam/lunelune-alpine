@@ -1,0 +1,4 @@
+<div class="meta__item-datetime meta__item">
+  {{ partial "svg/time.svg" (dict "class" "meta__icon") -}}
+  <p class="author"> {{ .Params.Author }}</p>
+</div>

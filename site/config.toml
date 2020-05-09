@@ -8,10 +8,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 staticDir = ["static", "static/img"] # "static/img" for images
 hasCJKLanguage = true # 日本語・中国語・韓国語の単語カウントを有効にする
 summaryLength = 120 # サマリーの長さを120単語にする
-[Author] # Used in authorbox
-  name = "okamoto"
-  bio = "ハイパー雨男。サイトの管理人。H27卒。"
-  avatar = "img/0kam.JPG"
+
 [menu]
   # Sets the menu items in the navigation bar
   # Identifier prepends a Font Awesome icon to the menu item
@@ -70,10 +67,10 @@ summaryLength = 120 # サマリーの長さを120単語にする
   opengraph = true # Enable OpenGraph
   twitter_cards = true # Enable Twitter Cards if true
   readmore = false # Show "Read more" button in list if true
-  authorbox = true # Show authorbox at bottom of pages if true
+  authorbox = false # Show authorbox at bottom of pages if true
   toc = true # Enable Table of Contents
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
-  post_meta = ["date", "categories", "translations"] # Order of post meta information
+  post_meta = ["date", "author", "categories", "translations"] # Order of post meta information
   mainSections = ["blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
   dateformat = "2006-01-02" # Change the format of dates
   mathjax = true # Enable MathJax
