@@ -1,5 +1,5 @@
 +++
-author = "okamoto"
+author = "all members"
 date = 2020-05-05T15:00:00Z
 description = "戸山高校山岳部OB・OGの交流と情報発信の場"
 images = []
