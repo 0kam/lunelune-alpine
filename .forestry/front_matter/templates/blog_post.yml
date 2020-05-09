@@ -19,9 +19,6 @@ fields:
   type: tag_list
   default: []
   label: tags
-- type: text
-  name: description
-  label: description
 - name: images
   type: image_gallery
   config: {}
