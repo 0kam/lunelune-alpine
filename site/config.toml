@@ -1,4 +1,4 @@
-baseurl = "https://lunelune-alpine.netlify.app"
+baseurl = "https://lunelune-alpine.org"
 title = "お山登りるんるん会"
 languageCode = "ja"
 paginate = "10" # Number of posts per page
