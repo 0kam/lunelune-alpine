@@ -95,7 +95,10 @@ summaryLength = 120 # サマリーの長さを120単語にする
   # Enable parts of social widget
   twitter = "lunelune_alpine"
   email = "lunelune.alpine@gmail.com"
-
+[sitemap]
+  changefreq = "dayly"
+  filename = "sitemap.xml"
+  priority = 0.5
 # Custom social links
 #[[Params.widgets.social.custom]]
 #  title = "Youtube"
