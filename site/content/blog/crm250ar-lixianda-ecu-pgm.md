@@ -1,6 +1,6 @@
 +++
 author = "S"
-categories = []
+categories = ["記録"]
 date = 2020-09-11T01:00:00Z
 tags = []
 thumbnail = "/p_20200521_151950.jpg"
