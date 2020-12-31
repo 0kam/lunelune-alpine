@@ -1,8 +1,7 @@
 +++
 author = "S"
 categories = ["学術"]
-date = ""
-draft = true
+date = 2020-12-31T04:00:00Z
 tags = []
 thumbnail = "/p_20201231_141933.jpg"
 title = "CRM250ARのアイドリング制御を読み解く"
