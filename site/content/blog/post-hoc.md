@@ -5,6 +5,8 @@ date = ""
 draft = true
 tags = []
 thumbnail = ""
-title = "差の検定の視覚的理解ーpost-hoc禁止令"
+title = "分散分析の視覚的理解ーpost-hoc禁止令"
 
 +++
+
+警告：これは由緒正しき正規分布帝国の布教活動です。ノンパラメトリック自治領の方は(以下略)
