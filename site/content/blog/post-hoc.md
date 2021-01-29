@@ -77,13 +77,13 @@ Y = μ + βX + ε
 
 なんか、GLMの基本形っぽくなった!って思った方は鋭い!
 
-そうなんです、ここではβXはバラメータマトリックス×デザインマトリックスです(ただしそれを言うには正確にはμ = β₀X)。
+そうなんです、ここではβXはバラメータマトリックス×デザインマトリックスです(ただしそれは正確にはμ = β₀X₀の時)。
 
-A = βX = β₁X + β₂X + ・・・ + β(df)X
+A = βX = β₁X₁ + β₂X₂ + ・・・ + β(df)X(df)
 
 主効果を自由度の数の項に分解すれば条件間の比較ができるってことです!
 
-ただし、うまく条件間比較をするためにはデザインマトリックスをうまい具合に設定する必要があります。この行列Xをどう設定するか(コーディング)が実験計画における非常に重要なポイントです。
+ただし、うまく条件間比較をするためにはデザインマトリックスをうまい具合に設定する必要があります。この行列Xをどう設定するか(コーディング)が非常に重要なポイントです。
 
 コーディングには、いくつか種類がありますが(例えばデータ整理でつかうダミーコーディングとか)、ここで使われるのがコントラストコーディングです。コントラストコーディングには2つの特徴があるます。全ての条件を比較をしていること、そして各条件が独立であることです。
 
@@ -142,6 +142,6 @@ A3：Y = μ－β₁－β₂＋ε
 
 [https://www.researchgate.net/profile/Barbara_Tabachnick/publication/259465542_Experimental_Designs_Using_ANOVA/links/5e6bb05f92851c6ba70085db/Experimental-Designs-Using-ANOVA.pdf](https://www.researchgate.net/profile/Barbara_Tabachnick/publication/259465542_Experimental_Designs_Using_ANOVA/links/5e6bb05f92851c6ba70085db/Experimental-Designs-Using-ANOVA.pdf "https://www.researchgate.net/profile/Barbara_Tabachnick/publication/259465542_Experimental_Designs_Using_ANOVA/links/5e6bb05f92851c6ba70085db/Experimental-Designs-Using-ANOVA.pdf")
 
-そして、いつしか修行の末に悟りを開いて正規分布の先に真実が見えたら、、、正規分布帝国から亡命すれば一般化線形モデル、その先にはさらに階層ベイズの境地がある！
+そして、いつしか修行の末に悟りを開いて正規分布の先に真実が見えたら、、、正規分布帝国から亡命して一般化線形モデル、さらには階層ベイズの境地へまっしぐら！
 
 ~~ああもうやだ。~~
