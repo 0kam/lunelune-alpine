@@ -51,6 +51,8 @@ Y = μ + A + ε
 
 なんかこの調子で続けても電波濃度が上がるだけな気がするのでそろそろ数字を登場させましょう。例えばこんなデータがあるとしましょう。
 
+***
+
 さて、日本の教科書に書いてあるのはここまで！
 ここから先の内容は日本国内ではあまり浸透していません。
 ですが！
@@ -129,3 +131,13 @@ A3：Y = μ－β₁－β₂＋ε
 これも図に表してみると以下のようになります。※必ずしも図のようにA1>A2>A3(すなわちβ₁,β₂>0)だとは限らない
 
 ![](/img/anova.jpg)
+
+以上、疲れたから終了。
+
+まだまだ2-wayだのwithinだのありますが、全部同じ考え方です。そしてさらには混合モデルだの階層モデルだのANCOVAだのGLMの底はまだまだ深いです。
+
+かなり説明を端折りましたが、そこは教科書読んでください。かなりわかりやすいのがネット上で公開されています↓。
+
+[https://www.researchgate.net/profile/Barbara_Tabachnick/publication/259465542_Experimental_Designs_Using_ANOVA/links/5e6bb05f92851c6ba70085db/Experimental-Designs-Using-ANOVA.pdf](https://www.researchgate.net/profile/Barbara_Tabachnick/publication/259465542_Experimental_Designs_Using_ANOVA/links/5e6bb05f92851c6ba70085db/Experimental-Designs-Using-ANOVA.pdf "https://www.researchgate.net/profile/Barbara_Tabachnick/publication/259465542_Experimental_Designs_Using_ANOVA/links/5e6bb05f92851c6ba70085db/Experimental-Designs-Using-ANOVA.pdf")
+
+そして、いつしか修行の末に悟りを開いて正規分布の先に真実が見えたら、、、正規分布帝国から亡命すればまだ一般化線形モデル、階層ベイズの境地がある！
