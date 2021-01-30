@@ -142,16 +142,18 @@ A3：Y = μ－β₁－β₂＋ε
 
 と言える、というロジックです。
 
-β₁X₁のSSとβ₂X₂のSSは大きさこそ違いますが、足し合わせるともとの主効果AのSSに一致します。この点、やはりpost-hocよりはるかにロジックが美しいですよね。
+β₁X₁のSSとβ₂X₂のSSは大きさこそ違いますが、βの”重み”は同じですし、足し合わせるともとの主効果AのSSに一致します。この点、やはりpost-hocよりロジックが美しいですよね。
 
-以上、疲れたから終了。
+結論：理由もなく安易にpost-hocを持ち出すと人権を失います。
+
+以上、おしまい。
 
 まだまだ2-wayだのwithinだのありますが、全部同じ考え方です。そしてさらには混合モデルだの階層モデルだのANCOVAだのGLMの底はまだまだ深いです。
 
-かなり説明を端折りましたが、すいません、そこは教科書読んでください。素晴らしいことにめっちゃわかりやすい名著がネット上で公開されています↓。
+かなり説明を端折りましたが、素晴らしいことにめっちゃわかりやすい名著がネット上で公開されています↓。
 
 [https://www.researchgate.net/profile/Barbara_Tabachnick/publication/259465542_Experimental_Designs_Using_ANOVA/links/5e6bb05f92851c6ba70085db/Experimental-Designs-Using-ANOVA.pdf](https://www.researchgate.net/profile/Barbara_Tabachnick/publication/259465542_Experimental_Designs_Using_ANOVA/links/5e6bb05f92851c6ba70085db/Experimental-Designs-Using-ANOVA.pdf "https://www.researchgate.net/profile/Barbara_Tabachnick/publication/259465542_Experimental_Designs_Using_ANOVA/links/5e6bb05f92851c6ba70085db/Experimental-Designs-Using-ANOVA.pdf")
 
-そして、いつしか修行の末に悟りを開いて正規分布の先に真実が見えたら、、、正規分布帝国から亡命して一般化線形モデル、さらには階層ベイズの境地へまっしぐら！
+そして、いつしか修行の末に悟りを開いて正規分布の先に真実が見えたら、、、正規分布帝国から亡命した先にはまだまだ広い世界が待っている。
 
 ~~ああもうやだ。~~
