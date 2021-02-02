@@ -279,8 +279,8 @@ A3：Y = μ－β₁－β₂＋ε
 
 以上、おしまい。
 
-まだまだ2-wayだのwithinだのありますが、基本は全部同じ考え方です。そしてその先には混合モデルだの階層モデルだのANCOVAだのANOVA属の底はまだまだ深いです泣。
+まだまだ2-wayだのwithinだのありますが、基本は全部同じ考え方です。そしてその先には混合モデルや階層モデルといった応用、MANOVA、ANCOVA、ANACONDAなどANOVA系のバリエーションがまだ待ち構えています泣。
 
-相当端折りましたので、実際に使う方は是非教科書を読んでください。素晴らしいことにめっちゃわかりやすい名著がネット上で公開されています↓。
+フワッと理解が目的だったのでN数が異なる場合、等分散性や正規性が担保されない場合など実運用に関することは相当端折りました。実際に使う方は是非教科書を読んでください。素晴らしいことにめっちゃわかりやすい名著がネット上で公開されています↓。
 
 [https://www.researchgate.net/profile/Barbara_Tabachnick/publication/259465542_Experimental_Designs_Using_ANOVA/links/5e6bb05f92851c6ba70085db/Experimental-Designs-Using-ANOVA.pdf](https://www.researchgate.net/profile/Barbara_Tabachnick/publication/259465542_Experimental_Designs_Using_ANOVA/links/5e6bb05f92851c6ba70085db/Experimental-Designs-Using-ANOVA.pdf "https://www.researchgate.net/profile/Barbara_Tabachnick/publication/259465542_Experimental_Designs_Using_ANOVA/links/5e6bb05f92851c6ba70085db/Experimental-Designs-Using-ANOVA.pdf")
