@@ -222,7 +222,7 @@ one-way within ANOVAでは上のように被験者効果Sというものが加�
 
 ## Contrast
 
-さて、ANOVAで有意となった場合、普通は事後検定に行きます。UMINのサイトにわかりやすく乗っているのでここでは説明しません。
+さて、ANOVAで有意となった場合、普通は事後検定で多重比較に行きます。UMINのサイトにわかりやすく乗っているのでここでは説明しません。
 
 [http://plaza.umin.ac.jp/\~beehappy/stat/com-ph.html#post-hoc](http://plaza.umin.ac.jp/\~beehappy/stat/com-ph.html#post-hoc "http://plaza.umin.ac.jp/~beehappy/stat/com-ph.html#post-hoc")
 
