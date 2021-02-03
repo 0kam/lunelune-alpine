@@ -120,7 +120,7 @@ SS(A)とSS(ε)を標準化してMS(A)とMS(ε)とすることでこの2つを比
 
 ![](/img/f-distribution_pdf.svg)
 
-source:wikipedia
+source:[wikipedia](https://en.wikipedia.org/wiki/F-distribution#/media/File:F-distribution_pdf.svg)
 
 はい、かなり説明端折ってます(※)。t検定は独立変数が2水準しかない特殊形のANOVAなんですよ～みたいな話も端折ります(t(α)=√F(1, α)なのでこれまでの説明を二人の場合で考えてみてください)。
 
