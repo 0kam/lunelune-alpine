@@ -372,6 +372,8 @@ A3：Y = μ－β₁－β₂＋ε
 
 まだまだ2-wayだのwithinだのありますが、基本は全部同じ考え方です。そしてその先には混合モデルや階層モデルといった応用、MANOVA、ANCOVA、ANACONDA(ちがう)、、、ANOVA系のバリエーションがまだ待ち構えています泣。
 
-フワッと理解が目的だったのでN数が異なる場合、等分散性や正規性が担保されない場合など実運用に関することは相当端折りました。実際に使う方は是非教科書を読んでください。素晴らしいことにめっちゃわかりやすい名著がネット上で公開されています↓。
+フワッと理解が目的だったので等サンプルサイズ、等分散性、正規性など前提条件が崩れた場合の対処やSCFによるSS計算など実運用に関することは相当端折りました。なので実際に使用する方は是非教科書を読んでください。
+
+で、素晴らしいことにめっちゃわかりやすい名著がネット上で公開されているんです！良い時代～
 
 [https://www.researchgate.net/profile/Barbara_Tabachnick/publication/259465542_Experimental_Designs_Using_ANOVA/links/5e6bb05f92851c6ba70085db/Experimental-Designs-Using-ANOVA.pdf](https://www.researchgate.net/profile/Barbara_Tabachnick/publication/259465542_Experimental_Designs_Using_ANOVA/links/5e6bb05f92851c6ba70085db/Experimental-Designs-Using-ANOVA.pdf "https://www.researchgate.net/profile/Barbara_Tabachnick/publication/259465542_Experimental_Designs_Using_ANOVA/links/5e6bb05f92851c6ba70085db/Experimental-Designs-Using-ANOVA.pdf")
