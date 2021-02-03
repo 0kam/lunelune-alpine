@@ -128,6 +128,10 @@ source:[wikipedia](https://en.wikipedia.org/wiki/F-distribution#/media/File:F-di
 
 F分布はF値(=分散の比)のpdf(確率密度関数)です。だからF=MS(A)/MS(ε)を出してF分布に照らし合わせれば確率分布がわかります。これはt検定の時と全く同じ考え方ですが、ANOVAの場合の対立仮設はMS(A)>>MS(ε)なので上側だけ見る片側検定です。
 
+![](/img/795316b92fc766b0181f6fef074f03fa-7.png)
+
+source:[BellCurve]() ※今回の例は上図と自由度が違う
+
 F = MS(A)/MS(ε) = 156/37.33 = 4.18 \~ F(2, 6)
 
 有意水準をα=5%とすると
