@@ -290,6 +290,8 @@ A×B → A₁⋂B₁ A₁⋂B₂ ・・A₂⋂B₁ A₂⋂B₂・・
 
 モデルのうち、A + B + AB の部分だけを引っ張り出すと下図のようになります。ABのdfはAとBのdfをかけると出てきます。
 
+SS(total) = SS(A) + SS(B) + SS(AB) + SS(ε)
+
 ![](/img/abinteraction.jpg)
 
 > μ=120
