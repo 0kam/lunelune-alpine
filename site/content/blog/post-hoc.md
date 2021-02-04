@@ -1,7 +1,7 @@
 +++
 author = "S"
 categories = ["学術"]
-date = ""
+date = 2021-02-04T04:00:00Z
 draft = true
 tags = []
 thumbnail = "/chupacabras.svg"
