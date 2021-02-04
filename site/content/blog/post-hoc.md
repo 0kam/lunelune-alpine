@@ -96,7 +96,9 @@ title = "分散分析の視覚的理解ー多重比較禁止令"
 
 誰が育てたかによってチュパカブラの成長には差があるのでしょうか? one-way between ANOVA(対応の無い一元配置分散分析)で分析してみましょう。
 
-IV(independent variable, 独立変数/説明変数)は飼い主(水準はItamae, ぽ, Johsonの3条件)、DV(dependent variable, 従属変数/目的変数)はチュパカブラの体長(長さ㎝、比尺度)です。
+IV(independent variable, 独立変数/説明変数)：飼い主(水準はItamae, ぽ, Johsonの3条件)
+
+DV(dependent variable, 従属変数/目的変数)：チュパカブラの体長(長さ㎝、比尺度)
 
 実際のANOVAに入る前にY=μ+A+εのモデルの意味を図示して確認してみましょう。Y=μ+A+εは行列式なので9匹のチュパカブラについて9本の関係式が成り立ちます。
 
