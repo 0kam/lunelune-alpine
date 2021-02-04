@@ -2,7 +2,6 @@
 author = "S"
 categories = ["学術"]
 date = 2021-02-04T04:00:00Z
-draft = true
 tags = []
 thumbnail = "/chupacabras.svg"
 title = "分散分析の視覚的理解ー多重比較禁止令"
