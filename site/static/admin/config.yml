@@ -13,10 +13,10 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "author" widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Categories",  name: "categories", widget: "relation"}, collection: "categories", searchFields: ["title"], valueField: "title", displayFields: ["title"]}
+      - {label: "Categories",  name: "categories", widget: "relation", collection: "categories", searchFields: ["title"], valueField: "title", displayFields: ["title"]}
       - {label: "Tags", name: "tags", widget: "relation", required: false, collection: "tags", searchFields: ["title"], valueField: "title", displayFields: ["title"], multiple: true}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "categories"
