@@ -22,7 +22,7 @@ tags:
 >主体が知覚するものはすべてその知覚世界になり、作用するものはすべてその作用世界になるからである。知覚世界と作用世界が連れ立って環世界というひとつの完結した全体を作りあげているのだ。
 >ユクスキュル『生物から見た世界』岩波文庫pp7
 
-![](https://i.imgur.com/u8LNrZ6.png)
+![](https://i.imgur.com/u8LNrZ6.png?nf_resize=fit&w=800)
 - 知覚標識：知覚世界における客体の表象
 - 作用標識：作用世界における作用の結果、知覚標識に与えられる変化
 - 環世界：知覚世界と作用世界の和集合。「生物から見た世界」。
@@ -41,7 +41,7 @@ tags:
 >ユクスキュル『生物から見た世界』岩波文庫pp94
 
 人、犬、蝿にとっての部屋。各主体の（興味に基づいた）認識している分類ごとに色分けしてある。犬、蝿については行動観察に基づく。
-![](https://i.imgur.com/VdERJCM.jpg)
+![](https://i.imgur.com/VdERJCM.jpg?nf_resize=fit&w=800)
 
 ## 環世界とカント観念論
 
@@ -78,34 +78,34 @@ Capdepuy P., Polani D., Nehaniv C.L. (2007)
 
 ### 機能環はベイジアンネットワークで表現される
 Perception-Action Loopの展開図
-![](https://i.imgur.com/a5Vib7G.jpg)
+![](https://i.imgur.com/a5Vib7G.jpg?nf_resize=fit&w=800)
 
 
 ### Empowerment
 過去から現在までの作用の積み重ねを送信者、
 1タイムステップ後の知覚を受信者とする通話路を考える。
 その通話路容量を、「将来に対する影響力」としてfitnessにする。
-![](https://i.imgur.com/uVd5Qun.jpg)
+![](https://i.imgur.com/uVd5Qun.jpg?nf_resize=fit&w=800)
 
 
 ### Context dependent empowerment
-![](https://i.imgur.com/z3j1zcw.jpg)
+![](https://i.imgur.com/z3j1zcw.jpg?nf_resize=fit&w=800)
 
 
 ### 内部状態と直近の知覚をcontextとし、empowermentを定義する
 これが「基礎的環世界」を生きる住人である。
-![](https://i.imgur.com/ldgljRM.jpg)
+![](https://i.imgur.com/ldgljRM.jpg?nf_resize=fit&w=800)
 Perception-Action Loopを展開するとこのようになっている
-![](https://i.imgur.com/22YVnyR.jpg)
+![](https://i.imgur.com/22YVnyR.jpg?nf_resize=fit&w=800)
 
 
 ### オートマトンによる実験
 実験条件
-![](https://i.imgur.com/eyQNVRe.jpg)
+![](https://i.imgur.com/eyQNVRe.jpg?nf_resize=fit&w=800)
 結果
 十分長い時間進化させたエージェントの環世界を可視化するとこのようになる。
 グリッドの各位置において、エージェントの内部状態ごとの頻度
-![](https://i.imgur.com/bNfp0qc.jpg)
+![](https://i.imgur.com/bNfp0qc.jpg?nf_resize=fit&w=800)
 State1、2では、上下の壁を認識している
 State4、5では「壁に隣接したマス」を認識している
 State0、3では「左右の壁か、あるいは中央」を認識しているが、どうしてこうなったのかはわからない。恐らく進化が局所解で止まったのだろう。
@@ -151,10 +151,10 @@ Empowermentは、具体的な状況やその正当性を考慮したfitness func
 >ベルクソン『物質と記憶』講談社学術文庫pp329
 
 本の紹介
-![](https://i.imgur.com/FFjAJLG.jpg)
+![](https://i.imgur.com/FFjAJLG.jpg?nf_resize=fit&w=800)
 
 なんかこれも近い話をしている気がする。西田哲学難しい。（この本は読みやすい）
-![](https://i.imgur.com/Si81vGH.jpg)
+![](https://i.imgur.com/Si81vGH.jpg?nf_resize=fit&w=800)
 
 ## 参考文献
 ### オートマトンについて

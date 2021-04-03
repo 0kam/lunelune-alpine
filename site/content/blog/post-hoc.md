@@ -3,7 +3,7 @@ author = "S"
 categories = ["学術"]
 date = 2021-02-04T04:00:00Z
 tags = []
-thumbnail = "/chupacabras.svg"
+thumbnail = "/chupacabras.svg?nf_resize=fit&w=800"
 title = "分散分析の視覚的理解ー多重比較禁止令"
 
 +++
@@ -32,7 +32,7 @@ title = "分散分析の視覚的理解ー多重比較禁止令"
 >
 > (日本語訳:)こいつは平均(μ)くらいなはずですが、平均からズレてる分については誤差(ε)としましょう。
 
-![](/img/y-u-e.jpg)
+![](/img/y-u-e.jpg?nf_resize=fit&w=800)
 
 **まず、世界全体の平均があり、世の全てのモノゴトは平均からの距離、すなわち誤差の大きさで説明される。**
 
@@ -70,11 +70,11 @@ title = "分散分析の視覚的理解ー多重比較禁止令"
 
 1つのグループの平均を取ると、グループとは無関係なバラツキは全部相殺されます。平均で見ると、”グループ”が”全体”からどれくらいズレているかがわかります。当たり前の話ですね。
 
-![](/img/groupdev.jpg)
+![](/img/groupdev.jpg?nf_resize=fit&w=800)
 
 各グループの平均をあつめてくると、グループとは無関係の影響を全部相殺して、純粋に”グループだけ”のバラツキがわかります。
 
-![](/img/groupvar.jpg)
+![](/img/groupvar.jpg?nf_resize=fit&w=800)
 
 この”グループのバラツキ”が大きければグループによって違いがありすぎる、すなわち世界を総平均だけでは語れないと言うことができます。
 
@@ -92,7 +92,7 @@ title = "分散分析の視覚的理解ー多重比較禁止令"
 
 例えば、Itamae・ぽ・Johsonの3人にそれぞれチュパカブラの卵を3つずつ渡して育ててもらって、1年後に体長を測って成長を見たとしましょう。
 
-![](/img/1waytable1.jpg)
+![](/img/1waytable1.jpg?nf_resize=fit&w=800)
 
 誰が育てたかによってチュパカブラの成長には差があるのでしょうか? one-way between ANOVA(対応の無い一元配置分散分析)で分析してみましょう。
 
@@ -124,7 +124,7 @@ DV(dependent variable, 従属変数/目的変数)：チュパカブラの体長(
 
 下の図では例として、Johsonの124㎝のチュパカブラに注目しています。でも各点について一つずつ上の式をあてはめてみるとY=μ+A+εの全体像が見えてきます。
 
-<br>![](/img/regimage.jpg)
+<br>![](/img/regimage.jpg?nf_resize=fit&w=800)
 
 ※図の中の正規分布は模式的に置いたもので、形や大きさは正確ではない
 
@@ -158,7 +158,7 @@ Aは3つの条件だ！って思いこみがちですが、見方を考えれば
 >
 > SS(total) = SS(A) + SS(ε)
 
-<br>![](/img/1waytable2.jpg)
+<br>![](/img/1waytable2.jpg?nf_resize=fit&w=800)
 
 まず主効果Aを条件ごとにまとめて(これをプールすると言います)、それぞれで平均を出します(水準平均)。
 
@@ -184,7 +184,7 @@ Aは3つの条件だ！って思いこみがちですが、見方を考えれば
 
 Y = μ + A + ε  →→  SS(total) = SS(A) + SS(ε)
 
-<br>![](/img/ssratio1.jpg)
+<br>![](/img/ssratio1.jpg?nf_resize=fit&w=800)
 
 ①もし条件による差が全く影響していなければ(=誰がチュパカブラを育てても関係なく同じくらいの大きさになるなら)、条件間の差が出ずに条件平均は総平均と全く同じになるはずです。残る要因はチュパカブラの個体差だけです。
 <br>Y = μ+ε → SS(A)=0, SS(total)=SS(ε)
@@ -218,9 +218,9 @@ SS(A)とSS(ε)を標準化してMS(A)とMS(ε)とすることでこの2つを比
 
 正規分布するサンプルの分散(自由度df₁)と、同じく正規分布のサンプルの分散(自由度df₂)の比をとったらなんか決まった確率分布になりそうじゃないですか?それがF分布です。
 
-![](/img/f-distribution_pdf.svg)
+![](/img/f-distribution_pdf.svg?nf_resize=fit&w=800)
 
-source:[wikipedia](https://en.wikipedia.org/wiki/F-distribution#/media/File:F-distribution_pdf.svg)
+source:[wikipedia](https://en.wikipedia.org/wiki/F-distribution#/media/File:F-distribution_pdf.svg?nf_resize=fit&w=800)
 
 はい、長くなるのでかなり説明を端折ってます(※)。端折ってしまったのでt検定は独立変数が2水準しかない特殊形のANOVAなんですよ～の話もできません泣。興味がある方は今までの説明を二人の場合で考えてみてください。最後にt(df)=√F(1,df)でつながるはずです。
 
@@ -228,7 +228,7 @@ source:[wikipedia](https://en.wikipedia.org/wiki/F-distribution#/media/File:F-di
 
 F分布はF値(=分散の比)のpdf(確率密度関数)です。だからMS(A)/MS(ε)=Fを出してF分布に照らし合わせれば分布確率がわかります。t検定の時と全く同じ考え方ですが、ANOVAの場合の対立仮設はMS(A)>>MS(ε)なので上側だけ見る片側検定です。
 
-![](/img/795316b92fc766b0181f6fef074f03fa-7.png)
+![](/img/795316b92fc766b0181f6fef074f03fa-7.png?nf_resize=fit&w=800)
 
 source:[BellCurve]() ※今回の例は上図と自由度が違う
 
@@ -250,7 +250,7 @@ ANOVAでまず出てくる効果量は分散説明率、η²です。
 
 η² = SS(A) / SS(total)
 
-![](/img/eta2.jpg)
+![](/img/eta2.jpg?nf_resize=fit&w=800)
 
 式の形を見れば意味は一目瞭然です。ちなみにチュパカブラの例で計算してみるとη²=.58、かなり強いです。
 
@@ -338,7 +338,7 @@ Y - μ = A + B + AB + ε
 
 SS(total) = SS(A) + SS(B) + SS(AB) + SS(ε)
 
-<br>![](/img/abinteraction.jpg)
+<br>![](/img/abinteraction.jpg?nf_resize=fit&w=800)
 
 > μ=120
 >
@@ -456,7 +456,7 @@ A = βX = β₁X₁ + β₂X₂ + ・・・ + β(df)X(df)
 
 t検定とは、A1、A2の2条件について以下のようなコントラストでANOVAを行うということです。Xは(1,-1)で足し合わせると0なので独立な比較です。
 
-<br>![](/img/t_contrast.jpg)
+<br>![](/img/t_contrast.jpg?nf_resize=fit&w=800)
 
 コントラストはX = (1, -1)となっていますが、逆にしても符号が逆転するだけで解析は本質的に変わりません。
 
@@ -472,7 +472,7 @@ Y = μ+βX＋ε
 
 これを図で表すとこうです↓。※ただし、A1>A2→β>0、A1<A2→β<0。残差εはA1またはA2から各点へのバラツキ。
 
-<br>![](/img/ttest.jpg)
+<br>![](/img/ttest.jpg?nf_resize=fit&w=800)
 
 各条件は平均からβズレているということです(A1とA2でNが違うとそのままでは成り立たない)。この時の帰無仮説はβ = 0、すなわちA1 = A2 = μです。
 
@@ -498,7 +498,7 @@ SS(βX) = (SP(XY))² / SS(X)
 
 以下のようなコントラストを用いたANOVAを考えてみましょう。
 
-<br>![](/img/anova_contrast.jpg)
+<br>![](/img/anova_contrast.jpg?nf_resize=fit&w=800)
 
 X1ではA1とA2&A3を比較して、X2ではA2とA3を比較します。X1もX2も縦に見るとそれぞれ総和が0なので独立な比較です。
 
@@ -524,7 +524,7 @@ Xを各条件ごとにバラして並べてみると、、
 
 これも図に表してみると以下のようになります。※必ずしも図のようにA1>A2>A3(すなわちβ₁,β₂>0)だとは限らない
 
-![](/img/anova.jpg)
+![](/img/anova.jpg?nf_resize=fit&w=800)
 
 これはすなわちX₁について見ると、
 
